@@ -1,4 +1,4 @@
-# 喬叔教 Elastic - 03 - EC 如何建立 Deployment - 配置的選擇
+# 喬叔教 Elastic - 03 - Elastic Cloud 如何建立 Deployment (2/2) - 配置的選擇
 
 ### 此章節的重點學習
 

@@ -1,4 +1,4 @@
-# 喬叔教 Elastic - 06 - ES 的超前佈署 - Index Template
+# 喬叔教 Elastic - 06 - Index 建立前你該知道的 (3/5) - ES 的超前佈署 - Index Template
 
 ## 前言
 

@@ -1,4 +1,4 @@
-# 喬叔教 Elastic - 04 - ES Index 如何被建立
+# 喬叔教 Elastic - 04 - Index 建立前你該知道的 (1/5) - ES Index 如何被建立
 
 ### 進入此章節的先備知識
 

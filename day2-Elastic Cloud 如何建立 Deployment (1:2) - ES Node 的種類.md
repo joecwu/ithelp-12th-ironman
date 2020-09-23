@@ -1,4 +1,4 @@
-# 喬叔教 Elastic - 02 - EC 如何建立 Deployment - ES Node 的種類
+# 喬叔教 Elastic - 02 - Elastic Cloud 如何建立 Deployment (1/2) - ES Node 的種類
 
 ### 此章節的重點學習
 

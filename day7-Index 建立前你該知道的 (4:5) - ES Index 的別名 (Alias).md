@@ -1,4 +1,4 @@
-# 喬叔教 Elastic - 07 - ES Index 的別名 (Alias)
+# 喬叔教 Elastic - 07 - Index 建立前你該知道的 (4/5) - ES Index 的別名 (Alias)
 
 ### 進入此章節的先備知識
 

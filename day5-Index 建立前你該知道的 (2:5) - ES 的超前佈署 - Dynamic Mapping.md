@@ -1,4 +1,4 @@
-# 喬叔教 Elastic - 05 - ES 的超前佈署 - Dynamic Mapping
+# 喬叔教 Elastic - 05 - Index 建立前你該知道的 (2/5) - ES 的超前佈署 - Dynamic Mapping
 
 ## 前言
 
