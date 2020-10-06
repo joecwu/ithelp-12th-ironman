@@ -1,4 +1,22 @@
-# 喬叔教 Elastic - 09 - 管理 Index 的 Best Practices - (1/5) Shard 的數量與 Rollover & Shrink API
+# 喬叔教 Elastic - 09 - 管理 Index 的 Best Practices - (1/7) Shard 的數量與 Rollover & Shrink API
+
+**管理 Index 的 Best Practices** 系列文章索引
+
+- [(1/7) - Shard 的數量與 Rollover & Shrink API](https://ithelp.ithome.com.tw/articles/10243037)
+
+- [(2/7) - 三溫暖架構 - Hot Warm Cold Architecture](https://ithelp.ithome.com.tw/articles/10243650)
+
+- [(3/7) - Index Lifecycle Management (ILM)](https://ithelp.ithome.com.tw/articles/10244575)
+
+- [(4/7) - Rollup](https://ithelp.ithome.com.tw/articles/10245259)
+
+- [(5/7) - Transform](https://ithelp.ithome.com.tw/articles/10245472)
+
+- [(6/7) - Snapshot Lifecycle Management (SLM)](https://ithelp.ithome.com.tw/articles/10246076)
+
+- [(7/7) - 總結](https://ithelp.ithome.com.tw/articles/10246673)
+
+---
 
 ## 前言
 

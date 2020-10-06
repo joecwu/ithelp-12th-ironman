@@ -1,15 +1,18 @@
 # 喬叔教 Elastic - 08 - Index 建立前你該知道的 (5/5) - EC 管理你的 Index - Kibana Index Management
 
+### **Index 建立前你該知道的** 系列文章索引
+
+- [(1/5) ES Index 如何被建立](https://ithelp.ithome.com.tw/articles/10236906)
+- [(2/5) ES 的超前佈署 - Dynamic Mapping](https://ithelp.ithome.com.tw/articles/10238283)
+- [(3/5) ES 的超前佈署 - Index Template](https://ithelp.ithome.com.tw/articles/10239736)
+- [(4/5) ES Index 的別名 (Alias)](https://ithelp.ithome.com.tw/articles/10241035)
+- [(5/5) EC 管理你的 Index - Kibana Index](https://ithelp.ithome.com.tw/articles/10242398)
+
+---
+
 ## 前言
 
-前幾天我們介紹到 Index 被建立之前需知道的一些重要項目，包含 
-
-- [ES Index 如何被建立](https://ithelp.ithome.com.tw/articles/10236906) 
-- [ES 的超前佈署 - Dynamic Mapping](https://ithelp.ithome.com.tw/articles/10238283)
-- [ES 的超前佈署 - Index Template](https://ithelp.ithome.com.tw/articles/10239736)
-- [ES Index 的別名(Alias)](https://ithelp.ithome.com.tw/articles/10241035)
-
-這些都是要建立 Index 需要知道的管理工具與運作原理，今天我們會回到 Elastic Cloud，如何透過 Kibana 來進行 Index 的管理。
+前幾天我們介紹到 **Index 建立前你該知道的** 的系列文章的前四篇，這些都是要建立 Index 需要知道的管理工具與運作原理，今天我們會回到 Elastic Cloud，如何透過 Kibana 來進行 Index 的管理。
 
 ### 此章節的重點學習
 

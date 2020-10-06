@@ -1,5 +1,15 @@
 # 喬叔教 Elastic - 05 - Index 建立前你該知道的 (2/5) - ES 的超前佈署 - Dynamic Mapping
 
+### **Index 建立前你該知道的** 系列文章索引
+
+- [(1/5) ES Index 如何被建立](https://ithelp.ithome.com.tw/articles/10236906)
+- [(2/5) ES 的超前佈署 - Dynamic Mapping](https://ithelp.ithome.com.tw/articles/10238283)
+- [(3/5) ES 的超前佈署 - Index Template](https://ithelp.ithome.com.tw/articles/10239736)
+- [(4/5) ES Index 的別名 (Alias)](https://ithelp.ithome.com.tw/articles/10241035)
+- [(5/5) EC 管理你的 Index - Kibana Index](https://ithelp.ithome.com.tw/articles/10242398)
+
+---
+
 ## 前言
 
 一開始使用 Elasticsearch 時，簡單的透過一個 HTTP POST 或 PUT 就能將一個 JSON 文件 indexing 進入 Elasticsearch，然後就可以直接透過 `_search` API endpoint 來進行搜尋，如此的簡單，不像一般 Database 要先定義好 table schema，這背後到底是怎麼運作的？

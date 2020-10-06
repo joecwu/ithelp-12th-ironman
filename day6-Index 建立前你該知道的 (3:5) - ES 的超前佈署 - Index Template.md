@@ -1,5 +1,15 @@
 # 喬叔教 Elastic - 06 - Index 建立前你該知道的 (3/5) - ES 的超前佈署 - Index Template
 
+### **Index 建立前你該知道的** 系列文章索引
+
+- [(1/5) ES Index 如何被建立](https://ithelp.ithome.com.tw/articles/10236906)
+- [(2/5) ES 的超前佈署 - Dynamic Mapping](https://ithelp.ithome.com.tw/articles/10238283)
+- [(3/5) ES 的超前佈署 - Index Template](https://ithelp.ithome.com.tw/articles/10239736)
+- [(4/5) ES Index 的別名 (Alias)](https://ithelp.ithome.com.tw/articles/10241035)
+- [(5/5) EC 管理你的 Index - Kibana Index](https://ithelp.ithome.com.tw/articles/10242398)
+
+---
+
 ## 前言
 
 將 Document indexing 進入 Elasticsearch 時，比較好的做法是先依照合適的 Index settings 及 mapping 來設置，但是若資料量不斷隨著時間增加，Index 也應該要隨著時間產生新的，如何有效的管理這些動態新增的 Index，我們需要的就是 Index Template。

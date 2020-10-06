@@ -1,5 +1,15 @@
 # 喬叔教 Elastic - 07 - Index 建立前你該知道的 (4/5) - ES Index 的別名 (Alias)
 
+### **Index 建立前你該知道的** 系列文章索引
+
+- [(1/5) ES Index 如何被建立](https://ithelp.ithome.com.tw/articles/10236906)
+- [(2/5) ES 的超前佈署 - Dynamic Mapping](https://ithelp.ithome.com.tw/articles/10238283)
+- [(3/5) ES 的超前佈署 - Index Template](https://ithelp.ithome.com.tw/articles/10239736)
+- [(4/5) ES Index 的別名 (Alias)](https://ithelp.ithome.com.tw/articles/10241035)
+- [(5/5) EC 管理你的 Index - Kibana Index](https://ithelp.ithome.com.tw/articles/10242398)
+
+---
+
 ### 進入此章節的先備知識
 
 - 知道什麼是 Index。
