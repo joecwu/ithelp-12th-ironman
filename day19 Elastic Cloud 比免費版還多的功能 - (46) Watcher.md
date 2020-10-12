@@ -1,4 +1,4 @@
-# 喬叔教 Elastic - 19 - Elastic Cloud 比免費版還多的功能 - (4/6) Watcher
+# 喬叔教 Elastic - 19 - Elastic Cloud 比免費版還多的功能 (4/6) - Watcher
 
 **Elastic Cloud 比免費版還多的功能** 系列文章索引
 

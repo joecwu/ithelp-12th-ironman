@@ -1,4 +1,4 @@
-# 喬叔教 Elastic - 16 - Elastic Cloud 比免費版還多的功能 - (1/6) Elastic Stack 的方案比較與銷售方式
+# 喬叔教 Elastic - 16 - Elastic Cloud 比免費版還多的功能 (1/6) - Elastic Stack 的方案比較與銷售方式
 
 **Elastic Cloud 比免費版還多的功能** 系列文章索引
 

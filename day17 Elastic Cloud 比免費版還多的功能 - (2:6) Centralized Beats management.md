@@ -1,4 +1,4 @@
-# 喬叔教 Elastic - 17 - Elastic Cloud 比免費版還多的功能 - (2/6) Centralized Beats Management
+# 喬叔教 Elastic - 17 - Elastic Cloud 比免費版還多的功能 (2/6) - Centralized Beats Management
 
 **Elastic Cloud 比免費版還多的功能** 系列文章索引
 

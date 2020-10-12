@@ -1,4 +1,4 @@
-# 喬叔教 Elastic - 20 - Elastic Cloud 比免費版還多的功能 - (5/6) Elasticsearch Token Service
+# 喬叔教 Elastic - 20 - Elastic Cloud 比免費版還多的功能 (5/6) - Elasticsearch Token Service
 
 **Elastic Cloud 比免費版還多的功能** 系列文章索引
 

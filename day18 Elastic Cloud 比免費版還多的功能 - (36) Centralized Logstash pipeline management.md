@@ -1,4 +1,4 @@
-# 喬叔教 Elastic - 18 - Elastic Cloud 比免費版還多的功能 - (3/6) Centralized Pipeline Management
+# 喬叔教 Elastic - 18 - Elastic Cloud 比免費版還多的功能 (3/6) - Centralized Pipeline Management
 
 **Elastic Cloud 比免費版還多的功能** 系列文章索引
 

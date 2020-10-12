@@ -1,4 +1,4 @@
-# 喬叔教 Elastic - 21 - Elastic Cloud 比免費版還多的功能 - (6/6) Multi-stack monitoring & Automatic stack issue alerts
+# 喬叔教 Elastic - 21 - Elastic Cloud 比免費版還多的功能 (6/6) - Multi-stack monitoring & Automatic stack issue alerts
 
 **Elastic Cloud 比免費版還多的功能** 系列文章索引
 
