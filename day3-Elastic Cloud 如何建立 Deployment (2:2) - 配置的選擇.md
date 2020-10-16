@@ -78,7 +78,7 @@ Elastic Cloud 預設將常用的一些 plugins 在設定畫面中可直接勾選
 
 ## 參考資料
 
-- [官方文件 - EC deployement templates](https://www.elastic.co/guide/en/cloud/current/ec-getting-started-templates.html)
-- [官方文件 - Elasticsearch service hardward](https://www.elastic.co/guide/en/cloud/current/ec-reference-hardware.html)
+- [官方文件 - EC deployment templates](https://www.elastic.co/guide/en/cloud/current/ec-getting-started-templates.html)
+- [官方文件 - Elasticsearch service hardware](https://www.elastic.co/guide/en/cloud/current/ec-reference-hardware.html
 - [官方文件 - EC deployment CRUD](https://www.elastic.co/guide/en/cloud/current/Deployment_-_CRUD.html)
 

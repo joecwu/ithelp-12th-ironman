@@ -1,5 +1,17 @@
 # 喬叔教 Elastic - 27 - Elasticsearch 的優化技巧 (1/4) - Indexing 索引效能優化
 
+**Elasticsearch 的優化技巧** 系列文章索引
+
+- [(1/4) - Indexing 索引效能優化](https://ithelp.ithome.com.tw/articles/10252325)
+
+- [(2/4) - Searching 搜尋效能優化](https://ithelp.ithome.com.tw/articles/10252695)
+
+- [(3/4) - Index 的儲存空間最佳化](https://ithelp.ithome.com.tw/articles/10253058)
+
+- [(4/4) - Shard 的最佳化管理](https://ithelp.ithome.com.tw/articles/10253348)
+
+---
+
 ## 前言
 
 這系列的文章主要的目的在於當我們開始使用 Elastic Stack 時，我們如何優化 Elasticsearch 的使用方式，包含 Indexing, Searching, Disk Usage, Shard Optimization 等四個主題。
@@ -16,7 +28,22 @@
 
 ## Indexing 索引效能優化
 
-這篇文章主要提供 Indexing 的效能優化的各種技巧與建議。
+這篇文章主要提供 Indexing 的效能優化的各種技巧與建議：
+
+- Indexing 大量資料時，善用 bulk request
+- 使用 multi-thread / multi-workers 來 indexing 資料進入 Elasticsearch
+- 調低或暫時關閉 `refresh_interval`
+- 指定 Routing 的方式，減少 Thread 的數量
+- 第一批資料 indexing 進入 Elasticsearch 之前，先不要設定 Replica
+- 關閉 java process swapping
+- 確保 Filesystem 有足夠的 memory cache
+- 使用 auto-generated ids
+- 使用更快速的儲存硬體
+- 調高 indexing buffer 大小
+- 使用 cross-cluster replication 的配置讓 searching 的處理不會佔用 indexing 的資源
+- 調整 Translog 的 Flush 設定，減少 Disk I/O
+
+以下會分別針對這些優化項目進行說明。
 
 ### Indexing 大量資料時，善用 bulk request
 
@@ -64,7 +91,7 @@ Elasticsearch 預設的 `refresh_interval` 是 `1s` ，也就是一秒會進行�
 
 ### 確保 Filesystem 有足夠的 memory cache
 
-Elasticsearch 使用時，由於使用 Lucene 進行許多 Segment files 的處理，會需要用到大量 filesystemt 的 memory buffer，因此官方的配置建議上，會建議 JVM Heap size v.s OS filesystem 各配置 50% 的記憶體大小，因此請確保 Filesystem 擁有足夠的記憶體來處理 indexing 的 request。
+Elasticsearch 使用時，由於使用 Lucene 進行許多 Segment files 的處理，會需要用到大量 filesystem 的 memory buffer，因此官方的配置建議上，會建議 JVM Heap size v.s OS filesystem 各配置 50% 的記憶體大小，因此請確保 Filesystem 擁有足夠的記憶體來處理 indexing 的 request。
 
 ### 使用 auto-generated ids
 
@@ -85,6 +112,10 @@ Indexing 的處理是屬於 I/O bound，在官方的建議配置上，會建議�
 ### 使用 cross-cluster replication 的配置讓 searching 的處理不會佔用 indexing 的資源
 
 如果是持續不斷的大量 indexing 資料進入 Elasticsearch 中，可以考慮使用 multi-cluster 的架構，將 indexing 的處理指向一個 Elasticsearch Cluster - A，而透過 cross-cluster replication 將資料 replica 到另一個 Elasticsearch Cluster - B，所有的 search 就指向 Elasticsearch Cluster - B，讓 searching 的各種請求處理，不會佔用到 indexing 的處理資源，確保 indexing 有獨立不受影響的資源配置。
+
+### 調整 Translog 的 Flush 設定，減少 Disk I/O
+
+Elasticsearch 因為避免 process crash 時資料的遺失，會預設在每 `5秒鐘` 、或是 memory size 達到 `512mb` …等條件達到時執行 fsync，而這個處理的 Disk I/O 成本較高，因此在大量 indexing 資料時，而且這時期又允許接受系統 crash 時資料遺失的風險，可以將 `index.translog.interval` 和 `index.translog.flush_threshold_size` 的配置調高，以提升 indexing 的效率。
 
 
 
